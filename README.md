@@ -1,5 +1,5 @@
 # Animal-rozpaszczator-20000
-Autor: Piotr Świderski (305435) grupa:  środa: 9:35 - 11:05
+Autor: Piotr Świderski (305435) grupa:  środa: 9:35 - 11:05 (Pan Zbigniew Kaleta)
 
 <img width="591" alt="obraz" src="https://user-images.githubusercontent.com/58508596/71314402-e0bd4600-2447-11ea-843b-9d4a799fd2b3.png">
 
