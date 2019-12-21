@@ -1,8 +1,6 @@
 # Animal-rozpaszczator-20000
 Autor: Piotr Świderski (305435) grupa:  środa: 9:35 - 11:05
 
-<img width="590" alt="zdjęcie" src="https://user-images.githubusercontent.com/58508596/71313306-ececd780-2436-11ea-8ce5-80a2b8821f98.png">
-
 
 Za co sa odpowiedzialne poszczególne klasy:
 
