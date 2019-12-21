@@ -9,7 +9,7 @@ Animal:
 klasa odpwiedzialna za przechowywanie informacji o zwierzakach. Są w niej metody definiujące, jak zwierzak ma się poruszać i jak rozmnarzać.
 
 AnimalAtOnePosition:
-klasa, której celem jest utworzenie listy zwierzaków, które znajdują się na danej pozycji (deklarjemy ją w konstruktorze). Przy wstawianiu zwierzaka do listy jest on od razu sortowany (tak, by energia zwierzaków z nowej listy malała).
+klasa, której celem jest utworzenie listy zwierzaków, które znajdują się na danej pozycji (deklarujemy ją w konstruktorze). Przy wstawianiu zwierzaka do listy jest on od razu sortowany (tak, by energia zwierzaków z nowej listy malała).
 
 Genome:
 klasa zawierająca genotyp danego zwierzęcia. Jej celem jest określenie losowego kierunku ruchu każdego zwierzaka oraz stworzenie nowego genotypu dla dziecka, opartego na genotypie rodziców. W związku z tym, że tablica genów nie jest nigdy sortowana, pozwolilem sobie pierwsze 8 miejsc każdego genotypu zarezerwować dla każdeo genu.
