@@ -127,12 +127,14 @@ public class Planet{
         {
             for(int j = 0; j<=this.mapUpperRight.y; j++)
             {
-                if( i <=jungle.getUpperRight().x && j <=jungle.getUpperRight().y)
+                 Vector2d vector2d = new Vector2d(i,j);
+                if(jungle.isInJungle(vector2d))
                 {
-                    freeSpaceInTheJungle.add(new Vector2d(j,i));
+                    freeSpaceInTheJungle.add(vector2d);
                 }
-                else {
-                    freeSpaceOutOfTheJungle.add(new Vector2d(j, i));
+                else
+                {
+                    freeSpaceOutOfTheJungle.add(vector2d);
                 }
             }
         }
