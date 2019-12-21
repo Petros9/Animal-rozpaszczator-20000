@@ -28,7 +28,7 @@ public class Jungle {
             else
             {
                 Vector2d mapMiddle = new Vector2d(width / 2-1 , height / 2 );
-                Vector2d upperRight = mapMiddle.add(new Vector2d((int)jungleWidth/2,(int)jungleHeight/2-1));
+                Vector2d upperRight = mapMiddle.add(new Vector2d((int)jungleWidth/2,(int)jungleHeight/2));
                 this.upperRight = upperRight;
                 Vector2d lowerLeft = mapMiddle.add(new Vector2d((int) ((-1)*jungleWidth/2+1),(int)((-1)*jungleHeight/2+1)));
                 this.loweLeft = lowerLeft;
@@ -39,7 +39,7 @@ public class Jungle {
             if(height % 2 ==0)
             {
                 Vector2d mapMiddle = new Vector2d(width / 2 , height / 2-1 );
-                Vector2d upperRight = mapMiddle.add(new Vector2d((int)jungleWidth/2-1,(int)jungleHeight/2));
+                Vector2d upperRight = mapMiddle.add(new Vector2d((int)jungleWidth/2,(int)jungleHeight/2));
                 this.upperRight = upperRight;
                 Vector2d lowerLeft = mapMiddle.add(new Vector2d((int) ((-1)*jungleWidth/2+1),(int)((-1)*jungleHeight/2+1)));
                 this.loweLeft = lowerLeft;
@@ -47,7 +47,7 @@ public class Jungle {
             else
             {
                 Vector2d mapMiddle = new Vector2d(width / 2 , height / 2 );
-                Vector2d upperRight = mapMiddle.add(new Vector2d((int)jungleWidth/2-1,(int)jungleHeight/2-1));
+                Vector2d upperRight = mapMiddle.add(new Vector2d((int)jungleWidth/2,(int)jungleHeight/2));
                 this.upperRight = upperRight;
                 Vector2d lowerLeft = mapMiddle.add(new Vector2d((int) ((-1)*jungleWidth/2+1),(int)((-1)*jungleHeight/2+1)));
                 this.loweLeft = lowerLeft;
