@@ -47,7 +47,7 @@ public class PlanetTest {
         Planet map = new Planet(4,4,4,10,0);
         assertTrue(map.getFreeSpaceInTheJungle().size() == 4);
         assertTrue(map.getFreeSpaceOutOfTheJungle().size() == 12);
-        Animal first = new Animal(new Vector2d(0,0),map,100);
+        Animal first = new Animal(new Vector2d(2,2),map,100);
         Animal second = new Animal(new Vector2d(3,3),map,100);
         map.place(first);
         map.place(second);
